@@ -79,7 +79,7 @@ btnPlayer1.addEventListener("click", function () {
         `.player_score_points--${activePlayer}`
       ).textContent = holdPlayer1[activePlayer];
 
-      if (holdPlayer1[0] > 10) {
+      if (holdPlayer1[0] >= 100) {
         document.querySelector(`.player0_points`).textContent =
           "🎉You are winner!🎉";
         document.querySelector(`.player1_points`).textContent = "Game Over";
@@ -110,7 +110,7 @@ btnPlayer2.addEventListener("click", function () {
       document.querySelector(`.player_score_points--${1}`).textContent =
         holdPlayer2[0];
 
-      if (holdPlayer2[0] > 10) {
+      if (holdPlayer2[0] >= 100) {
         $(".overlay").show();
         document.querySelector(`.player1_points`).textContent =
           "🎉You are winner!🎉";
