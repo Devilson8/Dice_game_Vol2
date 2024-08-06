@@ -250,16 +250,15 @@ li {
     position: absolute;
     top: 45%;
     left: 50%;
-    transform: translate(-50%, -50%);
     width: 80vh;
-    height: 40vh;
+    transform: translate(-50%, -50%);
     border-radius: 10px;
     border-radius: 10px;
     z-index: 1;
   }
   .imgEdit {
     position: absolute;
-    top: 132%;
+    top: 102%;
     transform: rotate(45deg);
     width: 60px;
     transition: 0.2s;
