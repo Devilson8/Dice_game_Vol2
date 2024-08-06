@@ -248,20 +248,20 @@ li {
   }
   main {
     position: absolute;
-    top: 25%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80vh;
-    height: 30vh;
+    height: 40vh;
     border-radius: 10px;
     border-radius: 10px;
     z-index: 1;
   }
   .imgEdit {
     position: absolute;
-    top: 170%;
+    top: 132%;
     transform: rotate(45deg);
-    width: 70px;
+    width: 60px;
     transition: 0.2s;
     cursor: pointer;
     font-size: 10px;
@@ -272,7 +272,7 @@ li {
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    height: 70vh;
+    height: 50vh;
     gap: 100px;
   }
 }
