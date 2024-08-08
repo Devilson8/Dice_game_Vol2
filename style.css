@@ -147,6 +147,8 @@ main {
   background-color: aliceblue;
   border-radius: 10px;
   text-align: justify;
+  border: 1.5px solid #000;
+  z-index: 1;
 }
 
 .hide {

@@ -15,13 +15,7 @@ let playing = true;
 $(".overlay").hide();
 
 $(".infoBtn").click(function () {
-  setTimeout(function () {
-    $(".info").slideDown();
-  }, 500);
-
-  setTimeout(function () {
-    $(".info").fadeOut();
-  }, 6000);
+  $(".info").toggleClass("hide");
 });
 
 //disable buttonPlayer2
