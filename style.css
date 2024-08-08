@@ -23,7 +23,7 @@ main {
   text-align: center;
   justify-content: space-around;
   align-items: center;
-  width: 180vh;
+  width: 90vh;
   height: 60vh;
 }
 .imgEdit {
@@ -177,16 +177,13 @@ li {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-  body {
-    background-color: red;
-  }
   h1 {
     font-size: 20px;
   }
   .btnRestart {
     position: absolute;
     top: 100%;
-    left: 35%;
+    left: 25%;
     width: 100px;
   }
   .infoBtn {
@@ -262,7 +259,7 @@ li {
   }
   .imgEdit {
     position: absolute;
-    top: 92%;
+    top: 94%;
     transform: rotate(45deg);
     width: 60px;
     transition: 0.2s;
@@ -275,6 +272,7 @@ li {
     text-align: center;
     justify-content: center;
     align-items: center;
+    width: 90vh;
     height: 100vh;
     gap: 100px;
   }
