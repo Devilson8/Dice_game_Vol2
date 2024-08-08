@@ -260,6 +260,7 @@ li {
   .imgEdit {
     position: absolute;
     top: 94%;
+    left: 50%;
     transform: rotate(45deg);
     width: 60px;
     transition: 0.2s;
