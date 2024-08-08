@@ -176,6 +176,9 @@ li {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
+  body {
+    background-color: red;
+  }
   h1 {
     font-size: 20px;
   }
