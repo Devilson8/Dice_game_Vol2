@@ -175,7 +175,7 @@ li {
   list-style: none;
 }
 
-@media screen and (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 768px) {
   h1 {
     font-size: 20px;
   }
@@ -248,7 +248,7 @@ li {
   }
   main {
     position: absolute;
-    top: 85%;
+    top: 45%;
     left: 50%;
     width: 80vh;
     transform: translate(-50%, -50%);
