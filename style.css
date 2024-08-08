@@ -248,7 +248,7 @@ li {
   }
   main {
     position: absolute;
-    top: 45%;
+    top: 85%;
     left: 50%;
     width: 80vh;
     transform: translate(-50%, -50%);
